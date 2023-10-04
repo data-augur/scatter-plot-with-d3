@@ -10,10 +10,10 @@ Clone this repository and install its dependencies:
 git clone https://github.com/data-augur/scatter-plot-with-d3.git
 cd rollup-starter-app
 npm install
+```
 
 The data set used to create the scatter plot is IRIS dataset, URL
 "https://gist.githubusercontent.com/curran/a08a1080b88344b0c8a7/raw/0e7a9b0a5d22642a06d3d5b9bcbad9890c8ee534/iris.csv"
-
 
 The `public/index.html` file contains a `<script src='bundle.js'>` tag, which means we need to create `public/bundle.js`. The `rollup.config.js` file tells Rollup how to create this bundle, starting with `src/main.js` and including all its dependencies, including [date-fns](https://date-fns.org).
 
@@ -28,4 +28,7 @@ The `public/index.html` file contains a `<script src='bundle.js'>` tag, which me
 ## License
 
 [MIT](LICENSE).
+
+```
+
 ```
