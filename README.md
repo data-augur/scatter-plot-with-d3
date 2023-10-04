@@ -1,24 +1,19 @@
-# rollup-starter-app
+# Scatter plot using D3 and simple HTML, JavaScript
 
-This repo contains a bare-bones example of how to create an application using Rollup, including importing a module from `node_modules` and converting it from CommonJS.
-
-*See also https://github.com/rollup/rollup-starter-lib*
-
+This repo contains a bare-bones example of creating a scatter plot using D3, HTML and JavaScript
 
 ## Getting started
 
 Clone this repository and install its dependencies:
 
 ```bash
-git clone https://github.com/rollup/rollup-starter-app
+git clone https://github.com/data-augur/scatter-plot-with-d3.git
 cd rollup-starter-app
 npm install
 
-# or
-npx degit "rollup/rollup-starter-app" my-app
-cd my-app
-npm install
-```
+The data set used to create the scatter plot is IRIS dataset, URL
+"https://gist.githubusercontent.com/curran/a08a1080b88344b0c8a7/raw/0e7a9b0a5d22642a06d3d5b9bcbad9890c8ee534/iris.csv"
+
 
 The `public/index.html` file contains a `<script src='bundle.js'>` tag, which means we need to create `public/bundle.js`. The `rollup.config.js` file tells Rollup how to create this bundle, starting with `src/main.js` and including all its dependencies, including [date-fns](https://date-fns.org).
 
@@ -33,3 +28,4 @@ The `public/index.html` file contains a `<script src='bundle.js'>` tag, which me
 ## License
 
 [MIT](LICENSE).
+```
